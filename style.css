@@ -249,6 +249,7 @@ hr{
         display: flex;
         flex-direction: column;
         margin-left: 20px;
+        overflow: hidden;
     }
     .top-banar img{
         margin-top: 110px;
@@ -296,7 +297,8 @@ hr{
         width: 200px;
     }
     footer{
-        width: 375px;
+        width: 385px;
+        
         height: 600px;
         margin-left: 8px;
     }
@@ -334,7 +336,7 @@ hr{
   .contanar {
     width: 515px;
     height: 450px;
-    margin-left: 20px;
+    margin-left: 20px;overflow: hidden;
   }
   .secetion-title h1{
     font-size: 40px;
@@ -372,7 +374,7 @@ footer{
     margin-right: 10px;
     width: 735px;
     height: 400px;
-    margin-left: 8px;
+    margin-left: 50px;
 }
 hr{
     width: 700px;
