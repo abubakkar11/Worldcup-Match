@@ -7,7 +7,7 @@ Google-font-end
 body{
     width: 1260px;
     font-family: 'Poppins', sans-serif;
-    margin-right: 100px;
+    margin-left: 40px;
     margin-top: 50px;
 }
 /*-----------
@@ -19,10 +19,10 @@ body{
     display: flex;
     justify-content: space-between;
     height: 400px;
-    margin-left: 100px;
     background: #161616;
     border-radius: 30px;
     padding: 100px;
+    
 }
 .secetion-title{
     width: 531px;
@@ -89,7 +89,7 @@ body{
 /* blog-start */
 .blog-contanar{
     display: flex;
-    margin-left: 100px;
+    
 }
 .blog-title{
     margin-top: 100px;
@@ -292,7 +292,7 @@ hr{
     }
     .blogs{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
         margin-right: 10px;
         width: 200px;
     }
@@ -334,9 +334,10 @@ hr{
 /* media quares-tsbate */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   .contanar {
-    width: 515px;
+    width: 555px;
     height: 450px;
-    margin-left: 20px;overflow: hidden;
+    margin-left: 20px;
+    
   }
   .secetion-title h1{
     font-size: 40px;
@@ -366,15 +367,16 @@ hr{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    grid-column-gap: 100px;
 }
 #blod-last{
     display: none;
 }
 footer{
     margin-right: 10px;
-    width: 735px;
+    width: 1000px;
     height: 400px;
-    margin-left: 50px;
+    
 }
 hr{
     width: 700px;
