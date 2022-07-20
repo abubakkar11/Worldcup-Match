@@ -7,7 +7,6 @@ Google-font-end
 body{
     width: 1260px;
     font-family: 'Poppins', sans-serif;
-    
     margin-right: 100px;
     margin-top: 50px;
 }
@@ -24,7 +23,6 @@ body{
     background: #161616;
     border-radius: 30px;
     padding: 100px;
-    
 }
 .secetion-title{
     width: 531px;
@@ -103,7 +101,9 @@ body{
     border: 1px solid rgb(214, 209, 209);
     border-radius: 10px;
 }
-/* index1.html */
+/*------------
+ index1.html 
+ ------------*/
 .flag-banar img{
    width: 100px;
    height: 63px;
@@ -137,7 +137,9 @@ body{
     margin-top: 100px;
     width: 100px;
 }
-/* index.html */
+/*-----------
+ index.html 
+ ------------*/
 .blog-banar img{
     width: 300px;
     height: 200px;
@@ -178,6 +180,9 @@ body{
     grid-column-gap: 24px;
     grid-row-gap: 24px;
 }
+/*--------------- 
+footer-start 
+---------------*/
 footer{
     margin-top: 100px;
     text-align: center;
@@ -215,3 +220,86 @@ hr{
     color: #524e4e;
     font-size: 30px;
 }
+/*------------
+ footer-end 
+ -------------*/
+ @media screen and (max-width:688px) {
+    
+    .contanar{
+        width: 180px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .top-banar img{
+        margin-top: 110px;
+        height: 400px;
+        width: 230px;
+    }
+    .secetion-title h1{
+        width: 200px;
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    .secetion-title p{
+        width: 200px;
+    }
+    .blog-contanar{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-banar img{
+        margin-top: 110px;
+        height: 400px;
+        width: 230px;
+    }
+    .secetion-title h1{
+        width: 200px;
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    .secetion-title p{
+        width: 200px;
+    }
+    .blog-contanar{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .match{
+        width: 200px;
+        margin-right: 20px;
+        background: none;
+    }
+    .match a{
+        border: 1px solid rgb(94, 93, 93);
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 10px;
+        width: 200px;
+    }
+    footer{
+        width: 375px;
+        height: 600px;
+        margin-left: 8px;
+    }
+    hr{
+        width: 320px;
+    }
+    footer a{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .footer-banr{
+     margin-bottom: 30px;
+    } 
+    .social-link{
+        display: flex;
+        margin-left: 140px;
+    }
+ }
+
