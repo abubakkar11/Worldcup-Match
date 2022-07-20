@@ -180,11 +180,24 @@ body{
     grid-column-gap: 24px;
     grid-row-gap: 24px;
 }
+.view-batton{
+    text-decoration: none;
+    text-align: center;
+    display: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 750px;
+    border-radius: 5px;
+    width: 70px;
+    margin-top: 100px;
+
+}
 /*--------------- 
 footer-start 
 ---------------*/
 footer{
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
     background-color: #161616;
     width: 1415px;
@@ -299,11 +312,23 @@ hr{
         display: flex;
         margin-left: 140px;
     }
+/*---------------------
+ media-quary-mobaile-end 
+ --------------------*/
+
+/*---------------------
+-- media-quary-website-2 
+------------------------*/
+.match-banar{
+    width: 180px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
-/* media-quary-mobaile-end */
+ }
+
 /* media quares-tsbate */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  .contanar{
+  .contanar {
     width: 555px;
     height: 450px;
     margin-left: 20px;
@@ -348,5 +373,29 @@ footer{
 }
 hr{
     width: 700px;
+}
+.view-batton{
+    display:flex;
+    flex-direction: column;
+    margin-left: 280px;
+    
+}
+/*----------------------------------
+ media-quary-tablate-website-1-end 
+ -----------------------------------*/
+
+/*-----------------------------------
+ media-quary-tablate-website-2-start
+ ----------------------------------*/
+ .match-banar{
+    width: 180px;
+    display: grid;
+    margin-right: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 200px;
+ 
+}
+.match-info{
+    padding-right: 10px;
 }
 }
