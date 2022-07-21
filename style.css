@@ -47,13 +47,36 @@ body{
     background-color: #DD0000;
     padding: 8px;
     border-radius: 5px;
+    
+}
+.text-box{
+   
 }
 .secetion-title a:hover{
-    color: rgb(40, 197, 197);
+    color: rgb(29, 28, 27);
+    box-shadow: 1px 1px 1px gray;
+    opacity: 1;
+    animation-delay: initial;
+    animation-name: example;
+    animation-duration: 3s;
 }
 .top-banar img{
     height: 483px;
     margin-top: 17px;
+}
+@keyframes example {
+    0% {background-color: tomato;}
+    25%{
+        background-color: rgb(230, 165, 27);
+    }
+    50%{
+    background-color: antiquewhite;
+    transform: rotate(35deg);
+    }
+    75%{
+        background-color: #25aa98;
+    }
+    100% {background-color: yellow;}
 }
 /*-----------------------
  secetion-frist-body-end 
